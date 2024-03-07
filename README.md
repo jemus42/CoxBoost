@@ -4,6 +4,8 @@
 # CoxBoost
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/jemus42/CoxBoost/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jemus42/CoxBoost/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 CoxBoost fits Cox proportional hazards models by componentwise
