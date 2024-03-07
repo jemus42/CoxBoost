@@ -1,4 +1,8 @@
-1.4
+# CoxBoost 1.5
+
+- Initial CRAN submission.
+
+## Verison 1.4
 
 -   added a formula interface through 'iCoxBoost'
 -   added generic function 'coef' for extracting estimated coefficients
@@ -7,7 +11,7 @@
 -   convergence problems for unpenalized covariates now are catched
 
 
-1.3
+## Verison 1.3
 
 -   added option 'criterion' to allow for selection according to unpenalized scores
 -   added 'criterion="hpscore"' and 'criterion="hscore"' for heuristic evaluation
@@ -18,7 +22,7 @@
 -   implemented observation weights
 
 
-1.2-2
+## Verison 1.2-2
 
 -   fixed a bug in the predict function ocurred when all coefficients
     were equal to zero
@@ -26,7 +30,7 @@
 -   'estimPVal' now also works for zero boosting steps
 
 
-1.2-1
+## Verison 1.2-1
 
 -   improved speed of the core selection routine
 -   added faster code for the special case of binary covariate data
@@ -44,25 +48,25 @@
 -   fixed the implementation of the p-value estimation
 
 
-1.2
+## Verison 1.2
 
 -   added function 'estimPVal' for permutation-based p-value estimation
 -   improved the speed of the penalty updating code in PathBoost
 
 
-1.1-1
+## Verison 1.1-1
 
 -   fixed bug in print method (introduced in 1.0-1) where the number of
     non-zero coefficients would be taken from a wrong boosting step
 
 
-1.1
+## Verison 1.1
 
 -   implemented penalty modification factors and penalty change distribution
     via a connection matrix
 -   implemented estimation of models for competing risks
 
-1.0-1
+## Verison 1.0-1
 
 -   implemented data adaptive rule for default penalty value
 -   fixed bug where output of the selected covariate would print the
@@ -79,6 +83,6 @@
     for a large number of observations with a small number of covariates
 
 
-1.0
+## Verison 1.0
 
 * initial public release

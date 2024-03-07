@@ -1,3 +1,4 @@
 ^CoxBoost\.Rproj$
 ^\.Rproj\.user$
-^changeLog$
+^NEWS.md$
+^README\.Rmd$
